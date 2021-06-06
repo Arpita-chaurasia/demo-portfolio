@@ -1,0 +1,52 @@
+.header {
+        background-color: black;
+        height: 400px;
+        background-repeat: no-repeat;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 25% 81.1%, 0 100%);
+    }
+
+    .nav-item {
+        border: 1px solid cyan;
+        margin: 10px 12px;
+        border-radius: 16px;
+    }
+
+    .nav-item:hover {
+        background-color: rgba(100, 100, 194, 0.541);
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .vm {
+        border: 2px solid rgb(36, 235, 36);
+        border-radius: 30px;
+    }
+
+    .vm:hover {
+        background: rgba(15, 211, 15, 0.418);
+    }
+    .para{
+        vertical-align: middle;
+    }
+
+    *{
+        font-family: 'Comfortaa', cursive;
+    }
+    footer{
+        background-color: black;
+        clip-path: polygon(0 0,25% 45%,100% 0,100% 100%,0 100%);
+        padding-top: 60px;
+    }
+    .contact-card{
+        width: 60%;
+        margin:60px auto;
+        padding: 40px 20px;
+        background: rgba(95, 158, 160, 0.041);
+    }
+    .dark-btn:hover{
+        background-color: black;
+        color: white;
+
+    }
